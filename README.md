@@ -13,5 +13,5 @@
 
 ### 效果
 
-![桌面](./desktop.png)
-![内容](./example.png)
+![桌面](./screenshots/desktop.png)
+![内容](./screenshots/example.png)
