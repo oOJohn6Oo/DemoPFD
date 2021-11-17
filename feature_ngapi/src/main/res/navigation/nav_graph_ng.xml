@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_ng.xml"
+    app:startDestination="@id/ng_mainFragment">
+
+    <fragment
+        android:id="@+id/ng_threeFragment"
+        android:name="com.john6.example.scenenavigation.ngapi.ThreeFragment"
+        android:label="ThreeFragment"
+        tools:layout="@layout/fragment_sample" />
+    <fragment
+        android:id="@+id/ng_twoFragment"
+        android:name="com.john6.example.scenenavigation.ngapi.TwoFragment"
+        android:label="TwoFragment"
+        tools:layout="@layout/fragment_sample" />
+    <fragment
+        android:id="@+id/ng_oneFragment"
+        android:name="com.john6.example.scenenavigation.ngapi.OneFragment"
+        android:label="OneFragment"
+        tools:layout="@layout/fragment_sample" />
+    <fragment
+        android:id="@+id/ng_mainFragment"
+        android:name="com.john6.example.scenenavigation.ngapi.MainFragment"
+        android:label="NGAPI_MainFragment"
+        tools:layout="@layout/ng_fragment_main" />
+</navigation>

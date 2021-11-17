@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.john6.example.scenenavigation.feature_ktv">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_feature_ktv">
+        <dist:delivery>
+            <dist:install-time/>
+        </dist:delivery>
+        <dist:fusing dist:include="true" />
+    </dist:module>
+    <application tools:ignore="AllowBackup">
+        <activity android:name=".RoomListActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

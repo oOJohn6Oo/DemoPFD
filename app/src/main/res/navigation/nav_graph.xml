@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.john6.example.scenenavigation.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" >
+        <argument android:name="exclude" app:argType="boolean" android:defaultValue="true"/>
+    </fragment>
+
+<!--    全为Activity-->
+    <activity
+        android:id="@+id/ktv_main"
+        android:name="com.john6.example.scenenavigation.feature_ktv.RoomListActivity"
+        app:moduleName="feature_ktv"
+        android:label="@string/title_feature_ktv" />
+
+<!--    单Activity多Fragment-->
+    <activity
+        android:id="@+id/ng_main"
+        android:name="com.john6.example.scenenavigation.ngapi.MainActivity"
+        app:moduleName="feature_ngapi"
+        android:label="@string/title_ngapi" />
+
+<!--    <include-dynamic-->
+<!--        android:id="@+id/ng_main"-->
+<!--        android:label="NG-API"-->
+<!--        app:graphPackage="com.john6.example.scenenavigation.NGAPI"-->
+<!--        app:graphResName="nav_graph_ng"-->
+<!--        app:moduleName="@string/title_ngapi"/>-->
+</navigation>

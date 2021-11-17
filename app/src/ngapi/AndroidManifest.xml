@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.john6.example.scenenavigation">
+
+    <application
+        android:icon="@mipmap/ic_launcher_ng_api"
+        android:label="@string/title_ngapi"
+        android:roundIcon="@mipmap/ic_launcher_ng_api_round"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            tools:node="remove" />
+    </application>
+
+</manifest>

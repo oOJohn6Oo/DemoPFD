@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SceneNavigation</string>
+
+    <string name="title_ngapi">NG-API</string>
+    <string name="title_feature_ktv">KTV</string>
+</resources>
